@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+        - name: hw
+          image: python
+          commands:
+          - python hw.py
