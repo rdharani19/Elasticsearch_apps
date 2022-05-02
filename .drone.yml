@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-        - name: hw
+        - name: hwp
           image: python
           commands:
                   - ls
