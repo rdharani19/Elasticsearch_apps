@@ -2,7 +2,8 @@ kind: pipeline
 name: default
 
 steps:
-        - name: hw
+        - name: hwpq
           image: python
           commands:
-          - python hw.py
+                  - ls
+                  - python hw.py
