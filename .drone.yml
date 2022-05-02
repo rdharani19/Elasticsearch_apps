@@ -5,4 +5,5 @@ steps:
         - name: hw
           image: python
           commands:
-          - python hw.py
+                  - ls
+                  - python hw.py
